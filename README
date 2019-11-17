@@ -1,1 +1,13 @@
 AWS AMI with Docker creation tool
+
+Requirements
+============
+
+HashiCorp Packer: https://www.packer.io/
+
+Usage
+=====
+
+$ export AWS_ACCESS_KEY_ID=replace_me
+$ export AWS_SECRET_ACCESS_KEY=replace_me
+$ /path/to/packer build template.json
