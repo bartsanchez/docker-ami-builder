@@ -18,5 +18,11 @@
             "ssh_username": "ubuntu",
             "ami_name": "Ubuntu-Docker-{{ timestamp }}"
         }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "install_docker.sh"
+        }
     ]
 }
