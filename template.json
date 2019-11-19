@@ -26,6 +26,10 @@
         {
             "type": "shell",
             "script": "install_docker.sh"
+        },
+        {
+            "type": "shell",
+            "script": "install_docker_compose.sh"
         }
     ]
 }
