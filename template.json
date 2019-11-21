@@ -25,11 +25,15 @@
     "provisioners": [
         {
             "type": "shell",
-            "script": "install_docker.sh"
+            "script": "scripts/install_docker.sh"
         },
         {
             "type": "shell",
-            "script": "install_docker_compose.sh"
+            "script": "scripts/install_docker_compose.sh"
+        },
+        {
+            "type": "shell",
+            "script": "scripts/create_app_user.sh"
         }
     ]
 }
