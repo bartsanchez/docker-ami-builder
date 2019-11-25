@@ -34,6 +34,10 @@
         {
             "type": "shell",
             "script": "scripts/create_app_user.sh"
+        },
+        {
+            "type": "shell",
+            "script": "scripts/prepare_db_mountpoint.sh"
         }
     ]
 }
