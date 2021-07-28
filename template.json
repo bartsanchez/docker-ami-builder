@@ -3,8 +3,8 @@
         "aws_access_key": "{{ env `AWS_ACCESS_KEY_ID` }}",
         "aws_secret_key": "{{ env `AWS_SECRET_ACCESS_KEY` }}",
         "region": "us-east-2",
-        "source_ami": "ami-0d5d9d301c853a04a",
-        "instance_type": "t2.micro"
+        "source_ami": "ami-0436fb85faebc46f0",
+        "instance_type": "t4g.small"
     },
     "sensitive-variables": [
         "aws_access_key",
