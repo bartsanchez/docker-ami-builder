@@ -29,10 +29,6 @@
         },
         {
             "type": "shell",
-            "script": "scripts/install_docker_compose.sh"
-        },
-        {
-            "type": "shell",
             "script": "scripts/create_app_user.sh"
         },
         {
